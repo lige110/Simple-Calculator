@@ -1,6 +1,6 @@
 import express from "express";
 
-import { getCalculusRoutes } from "./calculus";
+import getCalculusRoutes from "./calculus.js";
 
 const getRoutes = () => {
   const router = express.Router();
@@ -10,4 +10,4 @@ const getRoutes = () => {
   return router;
 };
 
-export { getRoutes };
+export default getRoutes;

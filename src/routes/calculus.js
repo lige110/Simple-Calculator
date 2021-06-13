@@ -30,4 +30,4 @@ const calculate = async (req, res, next) => {
   }
 };
 
-export { getCalculusRoutes };
+export default getCalculusRoutes;
