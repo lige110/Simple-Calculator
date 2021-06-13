@@ -4,11 +4,11 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
       - npm install
-    build:
-      commands:
-        - echo skipping build stage...
-    post_build:
-      commands:
-        - echo Testing the application
-        - npm test
+  build:
+    commands:
+      - echo skipping build stage...
+  post_build:
+    commands:
+      - echo Testing the application
+      - npm test
     
