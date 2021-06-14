@@ -26,6 +26,7 @@ const calculate = async (req, res, next) => {
     // logic to return the Http response
     res.status(200).json({ error: false, result: result });
   } catch (error) {
+    // forward the error to error handler
     next(error);
   }
 };
