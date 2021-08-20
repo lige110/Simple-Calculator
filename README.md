@@ -1,6 +1,6 @@
 # Simple Calculator
 
-Simple Calculator is a simple web service which calculates the result from a string input.
+Simple Calculator is a simple web service which calculates the result from a string input!
 
 The service offers an endpoint that reads a string input with base64 encoding and parses it, then returns a solution to the calculation in JSON or error message.
 
